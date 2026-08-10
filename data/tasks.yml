@@ -10,10 +10,10 @@ categories:
         status: in_progress
         priority: high
       - text: "Go through Tanuki's Plugin Database and verify availablity of modern versions and update accordingly"
-        status: todo
+        status: in_progress
         priority: high
       - text: "Backup all player data"
-        status: todo
+        status: done
         priority: high
       - text: "Update and Publish the Proprietary Plugins"
         status: todo
@@ -23,7 +23,7 @@ categories:
   - name: "Player Experience"
     tasks:
       - text: "Survey the player experience, find possible improvements and highlight issues"
-        status: in_progress
+        status: todo
         priority: medium
       - text: "Clean Up and Improve the Spawn Area"
         status: todo
@@ -47,10 +47,10 @@ categories:
   - name: "Community"
     tasks:
       - text: "Draft New Changelogs Format"
-        status: done
+        status: todo
         priority: low
       - text: "Replace important Discord Messages to be from current staff"
-        status: in_progress
+        status: todo
         priority: low
       - text: "Create Advertising Plan of Action"
         status: todo
