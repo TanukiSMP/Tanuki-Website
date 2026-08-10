@@ -4,52 +4,56 @@
 # Add/remove categories and tasks freely.
 
 categories:
-  - name: "Infrastructure"
+  - name: "Updating Backend"
     tasks:
-      - text: "Provision production host + nightly offsite backups"
+      - text: "Update Geyser and Verify Bedrock Edition Works Properly"
         status: in_progress
         priority: high
-      - text: "Set up staging server mirroring prod modlist"
+      - text: "Go through Tanuki's Plugin Database and verify availablity of modern versions and update accordingly"
         status: todo
         priority: high
-      - text: "Configure crash-loop watchdog / auto-restart"
+      - text: "Backup all player data"
+        status: todo
+        priority: high
+      - text: "Update and Publish the Proprietary Plugins"
         status: todo
         priority: medium
 
-  - name: "Mod & Server Security"
+
+  - name: "Player Experience"
     tasks:
-      - text: "Audit third-party mods for known exploit patterns"
+      - text: "Survey the player experience, find possible improvements and highlight issues"
         status: in_progress
-        priority: high
-      - text: "Bytecode patch: disable unused reflection hooks"
-        status: todo
         priority: medium
-      - text: "Pen-test whitelist/auth flow"
+      - text: "Clean Up and Improve the Spawn Area"
         status: todo
-        priority: medium
+        priority: low
+      - text: "Improve the GUIs and Menus accross the server to be cleaner and more professional"
+        status: todo
+        priority: low
 
   - name: "Gameplay & Content"
     tasks:
-      - text: "Finalize world border and spawn build"
+      - text: "Re-Evaluate the Goals for the Server content-wise"
         status: todo
         priority: medium
-      - text: "Configure economy plugin starter balances"
+      - text: "Seperate into acheivable projects, set priorities, assign to team members, set deadlines, and track progress"
         status: todo
         priority: low
-      - text: "Write and test first questline"
+      - text: "Clean up ItemsAdder Configuration"
         status: todo
         priority: low
 
   - name: "Community"
     tasks:
-      - text: "Draft server rules doc"
+      - text: "Draft New Changelogs Format"
         status: done
-        priority: high
-      - text: "Build whitelist application form"
+        priority: low
+      - text: "Replace important Discord Messages to be from current staff"
         status: in_progress
-        priority: high
-      - text: "Set up Discord roles + announcement channel"
+        priority: low
+      - text: "Create Advertising Plan of Action"
         status: todo
-        priority: medium
+        priority: low
 
-footer_note: "This page renders from data/tasks.yml — edit that file to update it."
+footer_note: "Tanuki SMP by eero"
