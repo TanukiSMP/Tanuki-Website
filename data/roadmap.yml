@@ -1,0 +1,41 @@
+# roadmap.yml — drives the ROADMAP page
+# status: planned | in_progress | done
+# Add or remove phases and items freely — order in this file is the
+# order shown on the page.
+
+phases:
+  - name: "Phase 0 - Update"
+    timeframe: "Aug – Sep 2026"
+    status: in_progress
+    items:
+      - "Update Server to latest Minecraft version"
+      - "Fix Geyser"
+      - "Find Replacements for deprecated plugins"
+      - "Reconfigure server to use new plugins"
+
+  - name: "Phase 1 — Core Improvements"
+    timeframe: "Oct 2026"
+    status: planned
+    items:
+      - "Re-evaluate server design"
+      - "Take inspiration from other successful projects"
+      - "Showcase and receive feedback from community"
+      - "Implement suggestions and improvements"
+
+  - name: "Phase 2 — New Content"
+    timeframe: "Nov 2026"
+    status: planned
+    items:
+      - "Organize priorities and sub-projects"
+      - "Complete each sub-project individually"
+      - "Bug-test and receive feedback from community"
+
+  - name: "Phase 3 — Re-Launch"
+    timeframe: "Q1 2027"
+    status: planned
+    items:
+      - "Heavily Advertise on Social Media"
+      - "General Hype Generation"
+      - "The Big Day"
+
+footer_note: "Tanuki SMP by eero"

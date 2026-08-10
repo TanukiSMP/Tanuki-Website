@@ -1,0 +1,48 @@
+# vision.yml — drives the home page (SERVER VISION & GOALS)
+# Edit any value below. No HTML knowledge needed — the site re-renders
+# straight from this file.
+
+server:
+  name: "TANUKI SMP"
+  tagline: "A Vanilla Minecraft Server with Fantasy Elements"
+  version: "26.2"
+  motd: "Supports Java and Bedrock"
+
+mission: >
+  We're building a long-term fantasy survival server where the priority lies in creating a
+  unique take on the dungeon crawling and character growth tropes. Inspired by Dungeons & Dragons,
+  Hypixel Skyblock and other similar experiences. 
+  100% vanilla, no mods required.
+  
+
+pillars:
+  - title: "Anti Pay-to-Win"
+    body: >
+      Real life money spent should not result in unfair advantages.
+      Donations result in purely cosmetic or quality-of-life rewards.
+      Priority lies in with the community, not the money.
+  - title: "A Passion Project, not a Business"
+    body: >
+      The goal has never been to make money. We're not a cash-grab. We're a community.
+      This a long-term project that will not be abandoned or sold to anyone. Conistant progress
+      since late 2024. That speaks for itself.
+
+  - title: "Transparent by Default"
+    body: >
+      Roadmap and task board are public. Updates and Progress are 
+      communicated through the Discord Change-Logs and Annoucements channels.
+  - title: "Focus on Stability"
+    body: >
+      Core features are prioritized over new features. Development is done on 
+      a mirrored server to allow for testing and to prevent player experience being
+      affected by unstable features and changes.
+
+stats:
+  - label: "Under Maintenance"
+    value: "Status"
+  - label: "August 15th, 2026"
+    value: "Re-Opening"
+  - label: "Closed"
+    value: "Whitelist"
+
+footer_note: "Tanuki SMP by eero"
