@@ -47,10 +47,10 @@ categories:
   - name: "Community"
     tasks:
       - text: "Draft New Changelogs Format"
-        status: todo
+        status: in_progress
         priority: low
       - text: "Replace important Discord Messages to be from current staff"
-        status: todo
+        status: in_progress
         priority: low
       - text: "Create Advertising Plan of Action"
         status: todo
