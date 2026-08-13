@@ -197,3 +197,52 @@ const page = document.body.dataset.page;
 if (page === "vision") renderVision();
 if (page === "roadmap") renderRoadmap();
 if (page === "tasks") renderTasks();
+if (page === "rules") renderRules();
+
+/* ---------- Rules page ---------- */
+
+async function renderRules() {
+    const main = document.getElementById("main");
+    try {
+        const data = await loadYaml("data/rules.yml");
+        const wrap = el("section", { class: "block" }, []);
+
+        (data.categories || []).forEach((cat, catIdx) => {
+            const list = el("div", { class: "rules-list" });
+            (cat.rules || []).forEach((rule, i) => {
+                const head = el("div", { class: "rule-row-head" }, [
+                    el("span", { class: "rule-index", text: String(i + 1).padStart(2, "0") }),
+                    el("span", { class: "rule-text", text: rule.text }),
+                    rule.severity
+                        ? el("span", { class: `priority-tag ${rule.severity}`, text: rule.severity })
+                        : null,
+                ]);
+                const row = el("div", { class: "rule-row" }, [head]);
+                if (rule.detail) {
+                    row.classList.add("expandable", "open");
+                    row.appendChild(el("p", { class: "rule-detail", text: rule.detail.trim() }));
+                    head.addEventListener("click", () => row.classList.toggle("open"));
+                }
+                list.appendChild(row);
+            });
+
+            const details = el("details", { class: "rules-category" }, [
+                el("summary", {}, [
+                    el("span", { class: "rules-category-name", text: cat.name }),
+                    el("span", { class: "rules-category-count", text: `${(cat.rules || []).length} rules` }),
+                ]),
+                list,
+            ]);
+            details.open = catIdx === 0;
+            details.open = true;
+            wrap.appendChild(details);
+        });
+
+        main.appendChild(wrap);
+        if (data.footer_note) {
+            document.getElementById("footer-note").textContent = data.footer_note;
+        }
+    } catch (err) {
+        renderError(main, "data/rules.yml", err);
+    }
+}

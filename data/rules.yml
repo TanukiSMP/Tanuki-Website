@@ -1,0 +1,165 @@
+# rules.yml — drives the RULES page
+# severity: high | medium | low  (optional — controls the tag color)
+# detail: optional — shown when a rule row is clicked/expanded
+# Add/remove categories and rules freely. First category opens by default.
+
+categories:
+  - name: "Discord Rules"
+    rules:
+      - text: "Be Respectful"
+        detail: >
+          Treat everyone with kindness. There shall be no harassment, bullying, or hate speech directed towards other members.
+          This also includes respecting staff members, we are people too, most of us are volunteers, and we can't always be there to help immediately!
+      - text: "English Only"
+        detail: >
+          Please only talk in English! Staff can't speak every language, so all messages sent in other languages will be flagged as spam!
+      - text: "No Spamming"
+        detail: >
+          This includes, but is not limited to: EXCESSIVE CAPS, repeating the same message repeatedly and overly long messages.
+      - text: "Swearing is allowed, slurs are not"
+        detail: >
+          Please do not excessively swear or direct curses at other people. Be reasonable with the profanities you use.
+      - text: "No NSFW, Piracy, or illegal content"
+        detail: >
+          This is not allowed on basically any server or platform. 2/3 of these are crimes and 1/3 is a crime for anyone under 18, which do exist on this server, which makes it 3/3, so just don’t. Crimes aren’t cool, kids.
+      - text: "Do not share personal information about yourself or other users"
+        detail: >
+          Privacy is a huge thing online and we want you all to be safe.
+          Don’t be that one kid who posted his social security number in chat.
+      - text: "Please do not discuss sensitive topics"
+        detail: >
+          This includes political/religious discussions and adjacent topics.
+      - text: "No impersonating other members or staff"
+        detail: >
+          Not looking at anyone in particular @oWynter
+      - text: "Do not advertise"
+        detail: >
+          This includes Discord servers, Youtube channels, and also, but not limited to, other Minecraft servers.
+      - text: "No threatening other users"
+        detail: >
+          This includes saying “I'm going to leak your IP" and other instances with similar thoughts or context. Threatening to doxx someone will result in your immediate, irreversible permanent ban.
+      - text: "Don't abuse the ticket system"
+        detail: >
+          Such as spamming opening tickets, spamming staff, false reports.
+          It’s annoying and childish. If your appeal has been denied/the outcome of a ticket was not what you wanted, DO NOT MAKE ANOTHER ONE. It will make your situation worse as whining about being banned does not make anyone want to unban you any faster.
+          If you have extra evidence that might exonerate you, feel free.
+      - text: "Don't start drama"
+        detail: >
+          We’re all here to play Minecraft, chat, and have fun. If you want to cause trouble, find somewhere else.
+      - text: "Follow Discord's TOS (https://discord.com/terms)"
+        detail: >
+          This goes without saying.
+
+  - name: "Minecraft Rules"
+    rules:
+      - text: "No Scamming."
+        detail: >
+          There are many ways to scam people and what qualifies is up to the moderators discretion.
+
+      - text: "No Griefing."
+        detail: >
+          This includes stealing. It doesn't matter if the house is unclaimed. If it's not yours,
+          don't touch it. If there is a base that appears to not have an owner, ask a staff
+          member to check it for you to see their recent activity to see if it's alright to
+          take stuff.
+          Blowing someone else's stuff up is never okay, same goes for lava-casting or other
+          destructive actions.
+
+      - text: "No Inappropriate Builds, Skins, Names or anything else."
+        detail: >
+          If it offends someone, its best not to do it. If you aren't sure, ask a staff
+          member.
+
+      - text: "No Unfair Advantages."
+        detail: >
+          This includes cheat clients, xray, etc
+          
+          Most game-unaltering mods/texture packs are fine, just as long as they don't give you
+          an unreasonable unfair advantage.
+          This includes stuff like Litematica, Tweakaroo, MiniHUD, Mini/World Maps, QoL HUD
+          changes/additions, Shaders, Distant Horizons/Bobby/Nvidium, etc.
+          
+          Keep in mind that during events/PvP, minimap and pvp mods that allow you to do stuff
+          like see crouching players or/and their potions/enchants/etc are NOT allowed.
+
+      - text: "No IRL-Trading."
+        detail: >
+          Trading in-game money/items for buying ranks/tokens on the webstore (and vice versa)
+          is fine. Anything else is not. Don't do it.
+
+      - text: "Don't bot/attack/attempt to crash/lag the server."
+        detail: >          
+          This rule also applies to lag machines and laggy farms.
+          If you have a farm that we deem to be causing issues (due to excess items/mobs), we
+          will ask you to fix it.
+          If you don't, we will remove the farm/your access to said farm, so please just don't
+          do it in the first place.
+
+      - text: "No Begging."
+        detail: >
+          In-game or in discord, it is annoying and worsens the player experience for everyone. 
+
+      - text: "Sharing Items."
+        detail: >
+          If you are going to be sharing items with other players, we expect you to:
+          1. Keep track of how much each person invested into each item.
+          2. Who the item will go to if you "split up".
+          3. Only share items with people you trust to behave maturely.
+          Staff will not be dividing items amongst you if you have not kept track of these
+          things, and their say is final. If you make a ticket and you haven't logged these
+          things, it's your problem and staff are not responsible for it.
+
+
+      - text: "Your IP/Account, Your Problem."
+        detail: >
+          If you, or someone on your IP is hacking, you are going to get banned. Doesn't matter
+          if it's your sibling on their account, if it's coming from your IP/Account, it will be treated as you commiting the infraction.
+
+      - text: "No exploiting."
+        detail: >
+          Don't exploit bugs to try to dupe. You'll get permanently banned and all your progress
+          will be deleted. If you're not sure if you're exploiting, ask a staff member. If you find a bug
+          on accident you can report it to the staff member, you may even be rewarded.
+
+      - text: "Don't annoy staff."
+        detail: >
+          If you ask staff for help, be patient, they are often dealing with other people at
+          that time.
+          Also don't DM staff about issues, please make a ticket instead.
+          (This does not apply to staff reports).
+
+      - text: "Don't evade punishments."
+        detail: >
+          If you get muted for a day, and you log on with an alt and start talking, both of your
+          accounts are going to get banned for double the length of your original ban (not just
+          the time remaining).
+          If you really need to do something (like giving back someone an item that you
+          borrowed), just tell a staff member to do it, rather than putting yourself at risk.
+
+      - text: "No spite-claiming."
+        detail: >
+          Don't build directly next to someone without their permission. If you are within a
+          couple hundred blocks of a person, please message them first, or risk having staff
+          telling you to move/having them remove your claim.
+
+      - text: "Litematica/Schematica"
+        detail: >
+          These mods are allowed for building as they make the server prettier.
+          However, do not use Easy Place/Air Place to build farms - Not only does it not make it
+          fair for other players, as things like cactus farms are significantly easier to build
+          with it on, but there are other smaller issues like not knowing how the farm works, and
+          thus not being able to troubleshoot/fix it in regards to causing lag.
+          
+          In regards to Rule #8, we don't want to have to remove your access to the gold farm you
+          spent 2 weeks building because you copied it from a schematic and decided that a single
+          hopper was going to be enough to collect all the items, so unless you really know how
+          the farms works and the rates it produces, try not to copy schematics.
+
+      - text: "Autoclicking"
+        detail: >
+          Autoclicking is fine, provided you are using it to attack mobs in a grinder. Any other
+          use of autoclickers is FORBIDDEN. If you are caught using it to farm skills or
+          placing/breaking blocks in a farm, it will be treated as an unfair advantage.
+
+
+footer_note: "Tanuki SMP by eero"
