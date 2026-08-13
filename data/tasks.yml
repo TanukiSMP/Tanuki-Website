@@ -28,6 +28,9 @@ categories:
       - text: "Clean Up and Improve the Spawn Area"
         status: todo
         priority: low
+      - text: "Create Tanuki Logos and put them in Spawn, Arena and various other places"
+        status: todo
+        priority: low
       - text: "Improve the GUIs and Menus accross the server to be cleaner and more professional"
         status: todo
         priority: low
@@ -41,6 +44,9 @@ categories:
         status: todo
         priority: low
       - text: "Clean up ItemsAdder Configuration"
+        status: todo
+        priority: low
+      - text: "Redo outdated and low quality 2D models for things like vouchers"
         status: todo
         priority: low
 
