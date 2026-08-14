@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: "GenesisMinecraft";
+    src: url("https://cdn.jsdelivr.net/gh/IdreesInc/Minecraft-Font@v1.0/Minecraft.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
 
+@font-face {
+    font-family: "GenesisMinecraft";
+    src: url("https://cdn.jsdelivr.net/gh/IdreesInc/Minecraft-Font@v1.0/Minecraft-Bold.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "GenesisMinecraft";
+    src: url("https://cdn.jsdelivr.net/gh/IdreesInc/Minecraft-Font@v1.0/Minecraft-Bold.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+}
 :root {
     --bg: #0c0714;
     --bg-panel: #16101f;
@@ -23,7 +45,7 @@
     --medium: #f2c078;
     --low: #7fa8dc;
 
-    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --mono: 'GenesisMinecraft';
     --sans: 'Inter', system-ui, sans-serif;
 
     --radius: 3px;
