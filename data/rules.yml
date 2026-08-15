@@ -12,13 +12,13 @@ categories:
           This also includes respecting staff members, we are people too, most of us are volunteers, and we can't always be there to help immediately!
       - text: "English Only"
         detail: >
-          Please only talk in English! Staff can't speak every language, so all messages sent in other languages will be flagged as spam!
+          Only talk in English! Staff can't speak every language, so all messages sent in other languages will be flagged as spam!
       - text: "No Spamming"
         detail: >
           This includes, but is not limited to: EXCESSIVE CAPS, repeating the same message repeatedly and overly long messages.
       - text: "Swearing is allowed, slurs are not"
         detail: >
-          Please do not excessively swear or direct curses at other people. Be reasonable with the profanities you use.
+          Do not excessively swear or direct curses at other people. Be reasonable with the profanities you use.
       - text: "No NSFW, Piracy, or illegal content"
         detail: >
           This is not allowed on basically any server or platform. 2/3 of these are crimes and 1/3 is a crime for anyone under 18, which do exist on this server, which makes it 3/3, so just don’t. Crimes aren’t cool, kids.
@@ -26,7 +26,7 @@ categories:
         detail: >
           Privacy is a huge thing online and we want you all to be safe.
           Don’t be that one kid who posted his social security number in chat.
-      - text: "Please do not discuss sensitive topics"
+      - text: "Do not discuss sensitive topics"
         detail: >
           This includes political/religious discussions and adjacent topics.
       - text: "No impersonating other members or staff"
@@ -92,7 +92,7 @@ categories:
           This rule also applies to lag machines and laggy farms.
           If you have a farm that we deem to be causing issues (due to excess items/mobs), we
           will ask you to fix it.
-          If you don't, we will remove the farm/your access to said farm, so please just don't
+          If you don't, we will remove the farm/your access to said farm, so just don't
           do it in the first place.
 
       - text: "No Begging."
@@ -125,7 +125,7 @@ categories:
         detail: >
           If you ask staff for help, be patient, they are often dealing with other people at
           that time.
-          Also don't DM staff about issues, please make a ticket instead.
+          Also don't DM staff about issues, make a ticket instead.
           (This does not apply to staff reports).
 
       - text: "Don't evade punishments."
@@ -139,8 +139,7 @@ categories:
       - text: "No spite-claiming."
         detail: >
           Don't build directly next to someone without their permission. If you are within a
-          couple hundred blocks of a person, please message them first, or risk having staff
-          telling you to move/having them remove your claim.
+          couple hundred blocks of a person, message them first, or ask a staff member.
 
       - text: "Litematica/Schematica"
         detail: >
